@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://norlen.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'norlen'
+theme = 'PaperMod'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
